@@ -1,0 +1,163 @@
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+
+}
+
+/* header */
+
+body{ 
+    width:90%;
+    margin: 0 auto;
+}  
+
+.apple{ 
+    height: 20px;
+    width: 20px;
+
+}
+
+/* section/ main */
+
+.iphone{ 
+    width: 60vh;
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+h1{ 
+    font-size: 30px;
+
+}
+
+.div1{
+
+    display: flex;
+    padding: 20px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+h2{
+
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 20px;
+
+}
+
+h3{ 
+font-size: 20px;
+color: #626262;
+font-weight: 100px;
+margin-bottom: 30px;
+margin-top: 15px;
+}
+
+.botao{
+
+background-color: #0071e3;
+color: white;
+padding: 10px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+margin-bottom: 10px;
+
+}
+
+.troca{
+
+width: 40px;
+height: 40px;
+border-radius: 50px;
+border: none;
+cursor: pointer;
+}
+
+.menu{ 
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #626262;
+
+
+}
+
+li{ 
+font-size: 12px;
+font-weight: 400px;
+color: #626262;
+
+}
+ul{ 
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.roxo{ 
+    background-color: #EDE7F1;
+}
+
+.vermelho{ 
+    background-color: red;
+}
+.preto{
+    background-color: black;
+}
+.branco{
+    background-color: whitesmoke;
+}
+.azul{
+    background-color: #81A5C4;
+}
+.amarelo{ 
+    background-color: #F7DA47;
+}
+
+.escolha{ 
+    font-size: 15px;
+font-weight: 800px;
+margin-top: 10px;
+margin-bottom: 15px;
+color: #626262;
+
+}
+
+.circulo{ 
+
+    width: 100vh;
+    height: 100vh;
+    background: #81A5C4;
+    position: absolute;
+    clip-path: circle(600px at right 1000px);
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
